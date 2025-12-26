@@ -1,12 +1,81 @@
-# React + Vite
+# ♟️ React Chess Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic interactive chess game built using **React.js**. This project was created as part of a group assignment to demonstrate our understanding of React components, state management, props, and interactivity through event handling.
 
-Currently, two official plugins are available:
+## Live Demo
+https://react-mate.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Features
 
-## Expanding the ESLint configuration
+- Basic chessboard layout.
+- Toggle between white and black player turns.
+- Piece selection and movement on the board.
+- Restart and Draw buttons (added for game control).
+- Responsive UI built with React and CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+##  Technologies Used
+
+- **React.js**
+- **JavaScript**
+- **HTML/CSS**
+- **Git & GitHub**
+- **Netlify** 
+
+---
+
+## 📂 Folder Structure
+src/
+├── Components/
+  └── ChessBoard.css
+  └──ChessGame.jsx
+  └──Gameboard.jsx
+  └──GameInstructions.jsx
+  └──GameSquare.jsx
+  └──Index.css
+│ └── Navbar.css
+  └──Navbar.jsx
+  └──Scoreboatd.jsx
+  └──StartMenu.jsx
+  └──TurnIndicator.jsx
+   
+├── logic/
+  └── turnManager.js
+
+
+├── myLogic/
+│ └── utils.js
+
+├──App.css
+
+├──App.jsx
+
+├──Index.css
+
+├──main.jsx
+
+
+
+## 👥 Team Members
+  Daniel Kariuki
+- Karen Shauri
+- Charles Mwangi
+- Martin Mbatia
+
+
+
+## 🧠 Challenges Faced
+- Adjusting to the members in the group
+- Conflicts when it comes to merging
+- 
+
+
+
+## ✅ Future Improvements
+
+- Add legal move validation.
+- Highlight possible moves for each piece.
+- Implement full chess rules (check, checkmate, en passant, castling).
+- Add move history log and timer.
+
+
